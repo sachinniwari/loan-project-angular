@@ -1,0 +1,40 @@
+  
+  body {
+    font-family: "CircularStdBook";
+  }
+  
+  .login-sec {
+    width: 400px;
+  }
+ 
+  .btn-primary {
+    color: #fff;
+    border: 0;
+    background: linear-gradient(#04c2e2, #0091bf);
+    line-height: 1.8;
+    padding: 0.5rem 2rem;
+    box-shadow: 0px 2px 3px #ccc;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    border: 0;
+    background: linear-gradient(#0091bf, #04c2e2);
+  }
+  .btn-light {
+    line-height: 1.8;
+    padding: 0.5rem 2rem;
+    background: #c1eef6;
+    color: #02a9d0;
+    box-shadow: 0px 2px 3px rgba(229, 229, 230, 0.493);
+  }
+  .form-select,
+  .form-control {
+    border: 1px #eaedf2 solid;
+    box-shadow: 0px 3px 4px rgba(164, 175, 183, 0.171);
+  }
+  .table > :not(caption) > * > * {
+    padding: 1rem 0.5rem;
+    font-size: 14px;
+    border-bottom-width: 1px;
+  }

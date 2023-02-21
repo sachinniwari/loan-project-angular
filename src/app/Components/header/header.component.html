@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100" >
+    <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <img class="logo m-1 p-2" src="/assets/images/LoanProLogo.png" alt="" width="200vh">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <div  class = "d-flex justify-content-between"> -->
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 row">
+                    <li class="nav-item col md-2">
+                        <a class="nav-link active " aria-current="page" routerLink="/">Home</a>
+                    </li>
+                    <li class="nav-item col md-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item col md-2">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item col md-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+                    
+                </ul>
+                <div  class="d-flex justify-content-end">
+                  <a routerLink="/login" class="btn btn-light ms-4">Login</a>
+                  <a routerLink="/signup" class="btn btn-light ms-4">Signup</a>
+                    <!-- <button type="button" class="btn btn-light ms-4">SignUp</button> -->
+                </div>
+               
+            </div>
+        </div>
+    <!-- </div> -->
+</nav>
+<router-outlet></router-outlet>
